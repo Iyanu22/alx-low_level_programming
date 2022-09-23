@@ -1,24 +1,13 @@
-/*
- *
- *  * File: 5-printf.c
- *
- *   * Auth: Brennan D Baraban
- *
- *    */
-
 #include <stdio.h>
 
 /**
+ * main - Prints "with proper grammar, but the outcome is
  *
- *  * main - Prints "with proper grammar, but the outcome is
+ *                a piece of art," followed by a new line.
  *
- *                   a piece of art," followed by a new line.
+ * Return: Always 0.
  *
- *    *
- *
- *     * Return: Always 0.
- *
- *      */
+ */
 
 int main(void)
 
@@ -30,4 +19,4 @@ int main(void)
 
 			return (0);
 
-i}
+}
