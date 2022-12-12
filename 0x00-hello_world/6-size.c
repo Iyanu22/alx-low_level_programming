@@ -1,7 +1,7 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
- * main - Prints the size of various types based on 
+ * main - Prints the size of various types based on
  *	the computer it is compiled and run on..
  *
  * Return: Always 0.
@@ -21,4 +21,4 @@ int main(void)
 	printf("Size of a long long int: %zu byte(s)\n", (unsigned long)sizeof(d));
 	printf("Size of a float: %zu byte(s)\n", (unsigned long)sizeof(e));
 	return (0);
-}	
+}
