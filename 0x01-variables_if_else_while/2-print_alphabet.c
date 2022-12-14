@@ -16,8 +16,8 @@ int main()
 	{
 		putchar(alpha);
 		alpha++;	
-		putchar('\n');
 	}
+	putchar('\n');
 	return 0;
 
 
