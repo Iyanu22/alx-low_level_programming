@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "main.c"
+#include "main.h"
 /**
  * main - main Entry.
  *
@@ -14,4 +13,14 @@ void print_alphabet(void)
 	_putchar(alpha);
 	
 	_putchar('\n');
+}
+
+int main(void)
+
+{
+
+	    print_alphabet();
+
+	        return (0);
+
 }
