@@ -12,11 +12,12 @@ int main(void)
 
 	char *pc = "_putchar";
 	while (*pc)
+
 	{
 	putchar(*pc);
 	pc++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
 }
