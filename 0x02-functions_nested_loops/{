@@ -1,0 +1,13 @@
+ar *sh = "Holberton";
+
+
+
+	while (*sh)
+
+	{
+
+		_putchar(*sh);
+
+		sh++;
+
+	}
