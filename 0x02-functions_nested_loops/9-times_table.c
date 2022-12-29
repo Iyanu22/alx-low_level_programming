@@ -5,6 +5,7 @@
 void times_table(void)
 {
 	int times, num, result;
+
 	for (times = 0; times <= 9; times++)
 	{
 	for (num = 0; num <= 9; num++)
@@ -12,8 +13,11 @@ void times_table(void)
 	_putchar(',');
 	_putchar(' ');
 	result = times * num;
-	_putchar(result  + '0');
-	_putchar('\n');
+	if (result <= 9)
+	_putchar(' ');
+	else
+	_putchar((result / 10) + '0');
 	}
+	_putchar('\n');
 	}
 }
