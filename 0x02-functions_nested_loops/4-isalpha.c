@@ -3,7 +3,7 @@
  * _isalpha - checks for alphabetic character.
  * @c: The charater ti be checked.
  *
- * Return: 1 if true, 0 if false. 
+ * Return: 1 if true, 0 if false.
  */
 int _isalpha(int c)
 {
