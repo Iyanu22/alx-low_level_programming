@@ -6,7 +6,7 @@
  */
 int add(int num1, int num2)
 {
-	int num1, num2, result;
+	int result;
 
 	result = num1 + num2;
 	return (result);
