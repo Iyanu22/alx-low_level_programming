@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * main - main Entry.
+ *
  * Description: prints 1 to 100,
  * for multiples of 3, print "Fizz",
  * for multiple of 5 print "Buzz", else prints "FizzBuzz",
