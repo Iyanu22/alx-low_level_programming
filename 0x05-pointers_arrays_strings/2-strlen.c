@@ -7,7 +7,7 @@
 int _strlen(char *s)
 {
 	seize = 0;
-	while (*str++)
+	while (*s++)
 	seize++:
 	return(seize);
 }
