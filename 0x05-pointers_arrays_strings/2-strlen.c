@@ -6,8 +6,8 @@
  */
 int _strlen(char *s)
 {
-	seize = 0;
-	while (*s++)
+	int seize = 0;
+	for (; *s++;)
 	seize++:
 	return(seize);
 }
