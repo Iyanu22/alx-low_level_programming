@@ -8,6 +8,6 @@ int _strlen(char *s)
 {
 	int seize = 0;
 	for (; *s++;)
-	seize++:
+	seize++;
 	return(seize);
 }
