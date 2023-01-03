@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  *  _puts - rints a string, followed by a new line
+ * @str: string
  *
  *  Return: Always 0.
  */
